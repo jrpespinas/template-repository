@@ -39,7 +39,7 @@ def factorial(number):
 
 
 def main():
-    pass
+    print(factorial(7))
 
 if __name__ == "__main__":
     main()
