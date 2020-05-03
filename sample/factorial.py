@@ -35,7 +35,8 @@ class Sample:
 
 
 def factorial(number):
-    pass
+    return 1 if number == 1 or number == 0 else number * factorial(number - 1)
+
 
 def main():
     pass
